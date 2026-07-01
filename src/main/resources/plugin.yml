@@ -1,0 +1,14 @@
+name: MVTypeFixer
+version: 1.0.0
+main: me.mvtypefixer.MVTypeFixer
+description: Automatically adds a world type parameter to Multiverse-Core mv create commands.
+author: Nyx
+commands:
+  mvtypefixer:
+    description: Manage MVTypeFixer settings
+    usage: /mvtypefixer <reload|info>
+    permission: mvtypefixer.admin
+permissions:
+  mvtypefixer.admin:
+    description: Allows managing MVTypeFixer configuration
+    default: op

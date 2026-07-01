@@ -1,0 +1,23 @@
+# ============================================================
+#  MVTypeFixer  —  Configuration
+#  Intercept Multiverse-Core "mv create" commands and
+#  automatically append a world-type flag.
+# ============================================================
+
+# The world type to add when a "mv create" command is intercepted.
+#
+# Available types (Minecraft 1.7.10):
+#   FLAT          - Superflat world (default)
+#   NORMAL        - Standard world generation
+#   LARGE_BIOMES  - Large biomes
+#   AMPLIFIED     - Amplified terrain (very tall mountains)
+#   CUSTOMIZED   - Customized world generation
+world-type: FLAT
+
+# If true, override any existing -t flag already present in the command.
+# If false, only add -t when it is not already specified.
+force-type: false
+
+# Print debug messages to the console whenever a command is modified.
+# Useful for troubleshooting — turn off in production.
+debug: false
