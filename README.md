@@ -1,1 +1,3 @@
-# MVTypeFixer
+拦截所有插件与玩家向Multiverse-Core发送的/mv create指令，并强制在指令后面加上生成的世界类型，默认为flat超平坦。config里可以设置成如果插件或玩家/mv create时使用了-t 世界类型(即传递的世界类型参数不为空，那本插件就不进行修改。
+
+本插件只在1.7.10spigot上进行过测试，鲁棒性未知！！
